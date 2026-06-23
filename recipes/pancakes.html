@@ -3,46 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pancakes</title>
+    <title>Pancakes | Odin Recipes</title>
+    <link rel="stylesheet" href="recipes.css" />
   </head>
   <body>
-    <a href="../index.html">Home</a>
+    <header class="recipe-page__header">
+      <nav class="header__nav">
+        <a href="../index.html" class="header__home">Home</a>
+      </nav>
+    </header>
 
-    <h1>Pancakes</h1>
+    <main class="recipe-page">
+      <h1 class="recipe-page__title">Pancakes</h1>
+      <figure class="recipe-page__banner">
+        <img
+          src="https://i0.pickpik.com/photos/85/208/888/pancake-schaumomelette-omelette-egg-preview.jpg"
+          alt="Pancakes"
+          class="recipe-page__image"
+        />
+        <figcaption>
+          <em>Fluffy homemade pancakes perfect for breakfast.</em>
+        </figcaption>
+      </figure>
+      <section class="recipe-page__section">
+        <h2>Ingredients</h2>
+        <ul class="recipe-page__list">
+          <li>Flour - 200 g</li>
+          <li>Milk - 250 ml</li>
+          <li>Egg - 1</li>
+          <li>Sugar - 2 tablespoons</li>
+          <li>Baking powder - 2 teaspoons</li>
+          <li>Butter - 30 g</li>
+          <li>Salt - 1 pinch</li>
+        </ul>
+      </section>
 
-    <img
-      src="https://i0.pickpik.com/photos/85/208/888/pancake-schaumomelette-omelette-egg-preview.jpg"
-      alt="Pancakes"
-    />
-
-    <p>Fluffy homemade pancakes perfect for breakfast.</p>
-
-    <h2>Ingredients</h2>
-
-    <ul>
-      <li>Flour - 200 g</li>
-      <li>Milk - 250 ml</li>
-      <li>Egg - 1</li>
-      <li>Sugar - 2 tablespoons</li>
-      <li>Baking powder - 2 teaspoons</li>
-      <li>Butter - 30 g</li>
-      <li>Salt - 1 pinch</li>
-    </ul>
-
-    <h2>Steps</h2>
-
-    <ol>
-      <li>Mix flour, sugar, baking powder, and salt in a bowl.</li>
-      <li>In another bowl, whisk the egg and milk together.</li>
-      <li>Melt the butter and add it to the wet ingredients.</li>
-      <li>Pour the wet ingredients into the dry ingredients.</li>
-      <li>Mix until a smooth batter forms.</li>
-      <li>Heat a lightly greased skillet over medium heat.</li>
-      <li>Pour a small amount of batter onto the skillet.</li>
-      <li>Cook until bubbles appear on the surface.</li>
-      <li>Flip the pancake and cook until golden brown.</li>
-      <li>Repeat with the remaining batter.</li>
-      <li>Serve warm with syrup, honey, or fresh fruit.</li>
-    </ol>
+      <section class="recipe-page__section">
+        <h2>Steps</h2>
+        <ol class="recipe-page__list">
+          <li>Mix flour, sugar, baking powder, and salt in a bowl.</li>
+          <li>In another bowl, whisk the egg and milk together.</li>
+          <li>Melt the butter and add it to the wet ingredients.</li>
+          <li>Pour the wet ingredients into the dry ingredients.</li>
+          <li>Mix until a smooth batter forms.</li>
+          <li>Heat a lightly greased skillet over medium heat.</li>
+          <li>Pour a small amount of batter onto the skillet.</li>
+          <li>Cook until bubbles appear on the surface.</li>
+          <li>Flip the pancake and cook until golden brown.</li>
+          <li>Repeat with the remaining batter.</li>
+          <li>Serve warm with syrup, honey, or fresh fruit.</li>
+        </ol>
+      </section>
+    </main>
   </body>
 </html>
