@@ -1,12 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
-</head>
-<body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/borscht.html">Borscht</a>
-</body>
+    <link rel="stylesheet" href="global.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Odin Recipes</h1>
+    </header>
+    <main class="recipes">
+      <ul class="recipes__list">
+        <li>
+          <a href="recipes/borscht.html" class="recipe"
+            ><img
+              src="https://live.staticflickr.com/4108/5033415296_42afb36608_b.jpg"
+              alt="Borscht"
+              class="recipe__image"
+            />
+            <p class="recipe__title">Borscht</p></a
+          >
+        </li>
+        <li>
+          <a href="recipes/chicken-alfredo-pasta.html" class="recipe">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVt-o42xXh1tRxAOkj5MKtOSGcJ_rHySEvvOYqE-GrAgFgfx3KFaHLvPo&s=10"
+              alt="Chicken Alfredo Pasta"
+              class="recipe__image"
+            />
+            <p class="recipe__title">Chicken Alfredo Pasta</p></a
+          >
+        </li>
+        <li>
+          <a href="recipes/pancakes.html" class="recipe">
+            <img
+              src="https://i0.pickpik.com/photos/85/208/888/pancake-schaumomelette-omelette-egg-preview.jpg"
+              alt="Pancakes"
+              class="recipe__image"
+            />
+            <p class="recipe__title">Pancakes</p></a
+          >
+        </li>
+      </ul>
+    </main>
+  </body>
 </html>
